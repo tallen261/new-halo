@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Instructor Bio</title>
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/mystyle.css">
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<nav>
+					<ul>
+						<li><a href="index.html" class="active" target="_blank">Home</a></li>
+						<li><a href="armed.html" target="_blank"> Armed Program </a></li>
+						<li><a href="unarmed.html" target="_blank"> Unarmed Program </a></li>
+						<li><a href="resources.html" target="_blank"> Resources </a></li>
+						<li><a href="bio.html" target="_blank"> Instructor Bio </a></li>
+						<li class="dropdown">
+							<a href="gallery.html" class="dropbtn"> Gallery </a>
+								<div class="dropdown-list">
+									<a href="#" target="_blank">Pictures</a>
+									<a href="#" target="_blank">Videos</a>
+								</div>
+						</li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-md-12">
+				<div class="col-md-5">
+				<h1>Chief Instructor</h1>
+				<h2>Adrian Arnold</h2>
+				<p>
+					Adrian Arnold grew up in North Philadelphia where violence was a constant element in the neighborhood.  He witnessed firsthand what happens to those who are unprepared to defend themselves and what they care about.  The consequences of being unprepared to defend oneself from violence can be deadly.  
+					</br>
+					While searching for self-empowerment he began to study martial arts. Shortly thereafter the importance of applicability and and accessibility became apparent.  Overly complex movements will be confused and forgotten in a stress scenario.  Simplicity and proper training leads to higher ability to act.  Failure to act decisively brings about worst case scenarios.  
+					</br>
+					During his time in China he competed  in the Chinese freestyle martial art known as Sanda.  Sanda has elements similar to Hapkido, taekwondo, and kickboxing.  Trained under 吴伟 in Beijing China where he earned his first Black Belt.  After returning to the USA he continued his studies into Taekwondo, Judo, Ju Jitsu, Hapkido and Koryo Gumdo.  
+					</br>
+					After his completion of training at Southern Arizona Law Enforcement Center which included over 600 hours.  During the course of performing the duties of a patrol officer he saw firsthand the consequences of those who did not know how to protect themselves.  With this as his motivation began teaching personal defensive tools to the public.   
+					</br>
+					My paramount philosophy is that we all have a responsibility to know how to protect ourselves and defend those we love. We all are capable of honoring this responsibility,  one merely needs to activate the will.  We owe it to our loved ones who will mourn us if we meet an unnatural end.
+					</br>
+					In our world of ever increasing violence it is key to invest now in skills that hopefully you won’t need in the future.  Come share and benefit from my over 15,000 hours of experience in unarmed, and armed conflict resolution.  You owe it to yourself and to those who love you.
+				</p>
+					
+				</div>
+
+				<div class="col-md-7">
+				<img src="images/mainprofile.jpg">
+					
+				</div>
+				
+			</div>
+			
+		</div>
+	</div>
+
+</body>
+</html>
