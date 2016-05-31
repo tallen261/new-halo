@@ -3,6 +3,7 @@
 <head>
 	<title>Home</title>
 	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<script src="https://use.fontawesome.com/0eb65bf21d.js"></script>
 	<link rel="stylesheet" type="text/css" href="css/mystyle.css">
 </head>
 <body>
@@ -11,10 +12,18 @@
 			<div class="col-md-12">
 				<nav>
 					<ul>
-						<li><a href="#"> Armed Program </a></li>
-						<li><a href="#"> Unarmed Program </a></li>
-						<li><a href="#"> Resources </a></li>
-						<li><a href="#"> Instructor Bio </a></li>
+						<li><a href="index.html" class="active" target="_blank">Home</a></li>
+						<li><a href="armed.html" target="_blank"> Armed Program </a></li>
+						<li><a href="unarmed.html" target="_blank"> Unarmed Program </a></li>
+						<li><a href="resources.html" target="_blank"> Resources </a></li>
+						<li><a href="bio.html" target="_blank"> Instructor Bio </a></li>
+						<li class="dropdown">
+							<a href="gallery.html" class="dropbtn"> Gallery </a>
+								<div class="dropdown-list">
+									<a href="#" target="_blank">Pictures</a>
+									<a href="#" target="_blank">Videos</a>
+								</div>
+						</li>
 					</ul>
 				</nav>
 			</div>
@@ -28,27 +37,27 @@
 
 		<div class="row" id="topInfo">	
 			<div class="col-md-12">
-				<div class="col-md-4">
+				<div class="col-md-4" id="item">
 				<h3>WELCOME</h3>
-				<img src="images/armed.jpg">
+				<img src="images/welcome.jpg" id="images">
 				<p class="catalog">
 					We thank you for visiting our website and hope you resolve to empower yourself to protect those you love and yourself. Halo Defense Solutions offers holistic non-linear instruction to assist people in gaining real command over their lives when confronted with a violent encounter. You'll learn how to defang a predator and let them know they've picked the wrong one. You won't be ready for sport fighting, you'll be ready for the fight of your life!
 				</p>
 				<button>Read More</button>	
 				</div>
 
-				<div class="col-md-4">
+				<div class="col-md-4" id="item">
 				<h3>UNARMED PROGRAM</h3>
-				<img src="images/unarmed.jpg">
+				<img src="images/unarmed.jpg" id="images">
 				<p class="catalog">
 					Ei per dicta mazim, ut primis debitis ius, id per mazim facete vituperata. Debet impetus has ad, meliore perfecto consequuntur pri id, eos verterem adversarium instructior te. Pri imperdiet intellegebat ut, ea vivendum dissentiet ius, sed ut duis simul accommodare. Has eu simul ocurreret mnesarchum. Saepe posidonium definitionem eu qui. Pro at elit pertinacia definitiones. Eos magna delenit mediocrem ea, est purto dicunt vocent et.
 				</p>
 				<button>Read More</button>	
 				</div>
 
-				<div class="col-md-4">
+				<div class="col-md-4" id="item">
 				<h3>ARMED PROGRAM</h3>
-				<img src="images/armed.jpg">
+				<img src="images/armed.jpg" id="images">
 				<p class="catalog">
 					Ei per dicta mazim, ut primis debitis ius, id per mazim facete vituperata. Debet impetus has ad, meliore perfecto consequuntur pri id, eos verterem adversarium instructior te. Pri imperdiet intellegebat ut, ea vivendum dissentiet ius, sed ut duis simul accommodare. Has eu simul ocurreret mnesarchum. Saepe posidonium definitionem eu qui. Pro at elit pertinacia definitiones. Eos magna delenit mediocrem ea, est purto dicunt vocent et.
 				</p>
@@ -61,29 +70,29 @@
 		
 		<div class="row" id="bottomInfo">	
 			<div class="col-md-12">
-				<div class="col-md-4">
+				<div class="col-md-4" id="item">
 				<h3>RESOURCES</h3>
-				<img src="images/armed.jpg">
+				<img src="images/resources.jpg" id="images">
 				<p class="catalog">
 					Ei per dicta mazim, ut primis debitis ius, id per mazim facete vituperata. Debet impetus has ad, meliore perfecto consequuntur pri id, eos verterem adversarium instructior te. Pri imperdiet intellegebat ut, ea vivendum dissentiet ius, sed ut duis simul accommodare. Has eu simul ocurreret mnesarchum. Saepe posidonium definitionem eu qui. Pro at elit pertinacia definitiones. Eos magna delenit mediocrem ea, est purto dicunt vocent et.
 				</p>
 				<button>Read More</button>	
 				</div>
 
-				<div class="col-md-4">
+				<div class="col-md-4" id="item">
 				<h3>INSTRUCTOR</h3>
-				<img src="images/profile.jpg">
+				<img src="images/profile.jpg" id="images">
 				<p class="catalog">
 					Adrian Arnold grew up in North Philadelphia where violence was a constant element in the neighborhood.  He witnessed firsthand what happens to those who are unprepared to defend themselves and what they care about.  The consequences of being unprepared to defend oneself from violence can be deadly.  
 
 					While searching for self-empowerment he began to study martial arts. Shortly thereafter the importance of applicability and and accessibility became apparent.  Overly complex movements will be confused and forgotten in a stress scenario.  Simplicity and proper training leads to higher ability to act.  Failure to act decisively brings about worst case scenarioos.  
 				</p>
-				<button>Read More</button>	
+				<button><a href="bio.html" target="_blank">Read More</a></button>	
 				</div>
 
-				<div class="col-md-4">
-				<h3>LOCATION</h3>
-				<img src="images/armed.jpg">
+				<div class="col-md-4" id="item">
+				<h3>GALLERY</h3>
+				<img src="images/gallery.jpg" id="images">
 				<p class="catalog">
 					Ei per dicta mazim, ut primis debitis ius, id per mazim facete vituperata. Debet impetus has ad, meliore perfecto consequuntur pri id, eos verterem adversarium instructior te. Pri imperdiet intellegebat ut, ea vivendum dissentiet ius, sed ut duis simul accommodare. Has eu simul ocurreret mnesarchum. Saepe posidonium definitionem eu qui. Pro at elit pertinacia definitiones. Eos magna delenit mediocrem ea, est purto dicunt vocent et.
 				</p>
@@ -94,6 +103,19 @@
 			
 		</div>
 	</div>
+<footer>
+	<div class="row">
+		<ul>
+			<li class="icons">
+				<a href="#"><i class="fa fa-facebook-official fa-3x" aria-hidden="true"></i></a>
+			</li>
 
+			<li class="icons">
+				<a href="#"><i class="fa fa-twitter-square fa-3x" aria-hidden="true"></i></a>
+			</li>
+			
+		</ul>
+	</div>
+</footer>
 </body>
 </html>
