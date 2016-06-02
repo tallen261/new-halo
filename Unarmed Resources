@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Unarmed Resources</title>
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<script src="https://use.fontawesome.com/0eb65bf21d.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/mystyle.css">
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<nav>
+					<ul>
+						<li><a href="index.html" class="active" target="_blank">Home</a></li>
+						<li><a href="armed.html" target="_blank"> Armed Program </a></li>
+						<li><a href="unarmed.html" target="_blank"> Unarmed Program </a></li>
+						<li><a href="resources.html" target="_blank"> Resources </a></li>
+						<li><a href="bio.html" target="_blank"> Instructor Bio </a></li>
+						<li class="dropdown">
+							<a href="#" class="dropbtn"> Gallery </a>
+							<div class="dropdown-content">
+								<a href="pictures.html" target="_blank">Pictures</a>
+								<a href="videos.html" target="_blank">Videos</a>
+							</div>
+						</li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-md-12">
+			<h1>Unarmed Resources</h1>
+
+			<p>My martial arts instructor Wu Wei of Beijing told me, “Before you can seek to use a weapon, you must seek to first master your body….to properly use any weapon you will need a trained body.”  The meaning of what he expressed to me rang true to the core.  No matter how wonderful, fancy or amazing a weapon may be it is simply a tool; if it’s welder is inept the weapon will be useless.  This speaks to the mindset of people being afraid of using a weapon, gun, knife, etc. as it may be used against them.  That perspective is a defeatist ideal, and has no place for those who seek to empower themselves to protect life and liberty.  The perspective should be I will learn to use my body, mind and weapon properly so that no one can infringe on me.  These links below are places that will help you in the mindset and mastery needed to properly defend oneself. </p>
+				
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-md-12" id="school">
+				<div class="col-md-4">
+					<img src="images/halo.jpg">
+					<a href="http://fistofblacklotus.wix.com/haloarts" target="_blank">
+					<h3>HALO Martial Arts Club</h3>
+					</a>
+					<h4>7700 Ogontz Avenue
+					</br>
+					Philadelphia, PA 19150
+					</h4>
+
+					<p>A striking based club teachers martial arts for youth and adults with a focus on practicality and real-world application.  Students can also learn personal protection and be introduced to contemporary and traditional weapons. Personalized instruction is a focal point of this school.</p>
+				</div>
+
+				<div class="col-md-4" id="school">
+					<img src="images/tb.jpg">
+					<a href="http://www.balancestudios.net/fishtown-location/" target="_blank">
+					<h3>Team Balance</h3>
+					</a>
+					<h4>1314 Frankford Avenue
+					</br>
+					Philadelphia, PA 19125
+					</h4>
+
+					<p>World class jiu jitsu practioners and an emphasis on positive sharing of skills defines this gym.  They have several locations and offer various other disciplines of combat including MMA competition.</p>
+				</div>
+
+				<div class="col-md-4" id="school">
+					<img src="images/mma.jpg">
+					<a href="http://www.muhammadsmartialarts.com/" target="_blank">
+					<h3>Muhammad's Martial Arts</h3>
+					</a>
+					<h4>4517 Wayne Avenue
+					</br>
+					Philadelphia, PA 19144
+					</h4>
+
+					<p>Offers coveted Kali and Silat instruction, Kenpo for both adults and children and jiu jitsu.  Smaller classes offer greater personal growth of students.</p>
+				
+				</div>
+
+			</div>
+		</div>
+	</div>
+<footer>
+	<div class="row">
+		<ul>
+			<li class="icons">
+				<a href="#"><i class="fa fa-facebook-official fa-3x" aria-hidden="true"></i></a>
+			</li>
+
+			<li class="icons">
+				<a href="#"><i class="fa fa-twitter-square fa-3x" aria-hidden="true"></i></a>
+			</li>
+			
+		</ul>
+	</div>
+</footer>
+</body>
+</html>
